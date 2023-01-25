@@ -1,0 +1,34 @@
+.nav { /* navigation bar */
+    background-color: black;
+    display: flex;
+    font-family: "Roboto";
+    
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+    margin-right: 20px;
+    align-items: center;
+    
+    
+}
+.nav-links a { /* each links */
+    color: white;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 20px;
+    text-decoration: none;
+}
+.nav-title { /* h1 line (profile) */
+    color: white;
+    margin-right: auto;
+    margin-left: 20px;
+    
+}
+.btn { /* signout button */
+    background-color: blue;
+    color: white;
+    font-size: 25px;
+}
